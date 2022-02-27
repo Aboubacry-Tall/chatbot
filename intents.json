@@ -1,0 +1,130 @@
+{"intents": [
+        {"tag": "non_valide",
+         "patterns": [""],
+         "responses": ["Je suis spécialement conçu pour te donner un coup de pouce pour ton orientation","Hey Ravi de faire ta connaissance","Désolé,je n'ai pas compris","Veuillez me donner plus d'informations"],
+         "context": [""]
+        },
+        {"tag": "Salutation_1",
+         "patterns": ["Hi"],
+         "responses": ["Hi,comment puis-je vous aider ?"],
+         "context": [""]
+        },
+        {"tag": "Salutation_2",
+         "patterns": ["Salut"],
+         "responses": ["Salut,comment puis-je vous aider ?"],
+         "context": [""]
+        },
+        {"tag": "Salutation_3",
+         "patterns": ["Comment vas tu"],
+         "responses": ["Merci ,comment puis-je vous aider ?"],
+         "context": [""]
+        },
+        {"tag": "Salutation_4",
+         "patterns": ["hello"],
+         "responses": ["Hello, comment puis-je vous aider ?"],
+         "context": [""]
+        },
+        {"tag": "Salutation_5",
+         "patterns": ["Bonjour"],
+         "responses": ["Bonjour, comment puis-je vous aider"],
+         "context": [""]
+        },
+        {"tag": "Salutation_6",
+         "patterns": ["Bonsoir"],
+         "responses": ["Bonsoir, comment puis-je vous aider"],
+         "context": [""]
+        },
+
+        {"tag": "Au_revoir_1",
+         "patterns": ["Bye"],
+         "responses": ["Bye"],
+         "context": [""]
+        },
+
+        {"tag": "Au_revoir_2",
+         "patterns": ["au revoir"],
+         "responses": ["au revoir,je vous souhaite une bonne journée"],
+         "context": [""]
+        },
+
+        {"tag": "Au_revoir_3",
+         "patterns": ["a la prochaine fois"],
+         "responses": ["Au revoir,je vous souhaite une bonne journée"],
+         "context": [""]
+        },
+
+        {"tag": "Au_revoir_4",
+         "patterns": ["A plus tard"],
+         "responses": ["Merci,à plus tard"],
+         "context": [""]
+        },
+
+        {"tag": "Remerciment_1",
+         "patterns": ["Merci"],
+         "responses": ["Tout le plaisir est pour moi"],
+         "context": [""]
+        },
+
+        {"tag": "Remerciment_4",
+         "patterns": ["Merci de m'avoir aider"],
+         "responses": ["De rien Tout le plaisir est pour moi"],
+         "context": [""]
+        },
+
+        {"tag": "mpi",
+         "patterns": ["mpi", "C'est quoi mpi"],
+         "responses": ["Mpi (Mathématiques-Physique-Informatique) est un tronc commun pour poursuivre les études dans les filières Mathématiques, Physique et Informatique."],
+         "context": [""]
+        },
+
+        {"tag": "mpi_1",
+         "patterns": ["Que puis-je faire après mpi","quelles sont les branches après mpi","quelles sont les filières après mpi", "quelles sont les domaine après mpi","quelles sont les spécialités après mpi"],
+         "responses": ["Après MPI vous avez un choix entre(Informatique, Mathématiques Appliqué et Informatique, Physique Appliqué, Physique Fondamental)"],
+         "context": [""]
+        },
+
+        {"tag": "info",
+         "patterns": ["Que puis-je faire après informatique","quelles sont les branches après informatique","quelles sont les filières après informatique", "quelles sont les domaine après informatique","quelles sont les spécialités après informatique"],
+         "responses": ["Après Informatique vous avez un choix entre(MIAGE, Da21)"],
+         "context": [""]
+        },
+
+        {"tag": "info_1",
+         "patterns": ["Comment arriver en master informatique","Comment faire master informatique"],
+         "responses": ["Pour le master Informatique il suffit de passer par MPI-Info-da2i-SI ou MPI-info-MIAGE-SI ou bien MPI-MAI-MI-SI "],
+         "context": [""]
+        },
+
+        {"tag": "mai",
+         "patterns": ["Que puis-je faire après mai","quelles sont les branches après mai","quelles sont les filières après mai", "quelles sont les domaine après Mathématiques Appliqué et Informatique","quelles sont les spécialités après Mathématiques Appliqué et Informatique"],
+         "responses": ["Après MAI vous avez un choix entre MA(Mathématiques Appliqué) et MI(Mathématiques et Informatique)"],
+         "context": [""]
+        },
+
+         {"tag": "mai_1",
+         "patterns": ["Comment arriver en master Mathématiques","Comment faire master Mathématiques"],
+         "responses": ["Pour le master Mathématiques il suffit de passer par MPI-MAI-MA puis Master Mathématiques "],
+         "context": [""]
+        },
+
+        {"tag": "Options",
+         "patterns": ["Comment vous pouvez m'aider ","Comment tu peux m'aider ","Qu'est ce que tu peux faire","Quels types de supports vous offrer"],
+         "responses": ["je peux vous aider sur l'orientation de differents branches de l'universite"],
+         "context": [""]
+        },
+
+        {"tag": "Options_2",
+         "patterns": ["j'ai besoin d'aide","j'ai besoin de votre aide"],
+         "responses": ["Comment puis-je vous aider ?"],
+         "context": [""]
+        },
+
+        {"tag": "cheikh",
+         "patterns": ["cheikh ","Tall"],
+         "responses": ["Cheikh and Tall are hight intelligent students mchlh "],
+         "context": [""]
+        }
+
+
+   ]
+}
